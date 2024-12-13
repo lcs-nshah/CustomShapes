@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		70EF0C532D0CC6270000A09D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EF0C4F2D0CC6270000A09D /* Preview Assets.xcassets */; };
+		70EF0C542D0CC6270000A09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EF0C512D0CC6270000A09D /* Assets.xcassets */; };
+		70EF0C552D0CC6270000A09D /* DoubleEndedArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C4C2D0CC6270000A09D /* DoubleEndedArrow.swift */; };
+		70EF0C562D0CC6270000A09D /* CustomShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C4D2D0CC6270000A09D /* CustomShapesApp.swift */; };
+		70EF0C582D0CC9870000A09D /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C572D0CC9870000A09D /* Star.swift */; };
+		70EF0C5A2D0CCB6E0000A09D /* Pentagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C592D0CCB6E0000A09D /* Pentagon.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		70EF0C3A2D0CC6020000A09D /* CustomShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EF0C4C2D0CC6270000A09D /* DoubleEndedArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleEndedArrow.swift; sourceTree = "<group>"; };
+		70EF0C4D2D0CC6270000A09D /* CustomShapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesApp.swift; sourceTree = "<group>"; };
+		70EF0C4F2D0CC6270000A09D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70EF0C512D0CC6270000A09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70EF0C572D0CC9870000A09D /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		70EF0C592D0CCB6E0000A09D /* Pentagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pentagon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		70EF0C3C2D0CC6020000A09D /* CustomShapes */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CustomShapes;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		70EF0C372D0CC6020000A09D /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		70EF0C312D0CC6020000A09D = {
 			isa = PBXGroup;
 			children = (
-				70EF0C3C2D0CC6020000A09D /* CustomShapes */,
+				70EF0C522D0CC6270000A09D /* CustomShapes */,
 				70EF0C3B2D0CC6020000A09D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,35 @@
 				70EF0C3A2D0CC6020000A09D /* CustomShapes.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		70EF0C4E2D0CC6270000A09D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				70EF0C4C2D0CC6270000A09D /* DoubleEndedArrow.swift */,
+				70EF0C572D0CC9870000A09D /* Star.swift */,
+				70EF0C592D0CCB6E0000A09D /* Pentagon.swift */,
+				70EF0C4D2D0CC6270000A09D /* CustomShapesApp.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		70EF0C502D0CC6270000A09D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70EF0C4E2D0CC6270000A09D /* Shapes */,
+				70EF0C4F2D0CC6270000A09D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70EF0C522D0CC6270000A09D /* CustomShapes */ = {
+			isa = PBXGroup;
+			children = (
+				70EF0C502D0CC6270000A09D /* Preview Content */,
+				70EF0C512D0CC6270000A09D /* Assets.xcassets */,
+			);
+			path = CustomShapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				70EF0C3C2D0CC6020000A09D /* CustomShapes */,
 			);
 			name = CustomShapes;
 			packageProductDependencies = (
@@ -109,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EF0C532D0CC6270000A09D /* Preview Assets.xcassets in Resources */,
+				70EF0C542D0CC6270000A09D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EF0C552D0CC6270000A09D /* DoubleEndedArrow.swift in Sources */,
+				70EF0C5A2D0CCB6E0000A09D /* Pentagon.swift in Sources */,
+				70EF0C562D0CC6270000A09D /* CustomShapesApp.swift in Sources */,
+				70EF0C582D0CC9870000A09D /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

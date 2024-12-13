@@ -58,7 +58,6 @@
 				70EF0C4C2D0CC6270000A09D /* DoubleEndedArrow.swift */,
 				70EF0C572D0CC9870000A09D /* Star.swift */,
 				70EF0C592D0CCB6E0000A09D /* Pentagon.swift */,
-				70EF0C4D2D0CC6270000A09D /* CustomShapesApp.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -75,6 +74,7 @@
 		70EF0C522D0CC6270000A09D /* CustomShapes */ = {
 			isa = PBXGroup;
 			children = (
+				70EF0C4D2D0CC6270000A09D /* CustomShapesApp.swift */,
 				70EF0C502D0CC6270000A09D /* Preview Content */,
 				70EF0C512D0CC6270000A09D /* Assets.xcassets */,
 			);
